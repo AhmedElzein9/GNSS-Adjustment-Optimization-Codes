@@ -1,4 +1,9 @@
 %{
+
+% sol : adjusted coordinates
+% v : computed baselines
+% dxdydz : observed baselines 
+
 %}
 
 function [out,sol,v] = my_3Dgps_network(X,LSU20)
