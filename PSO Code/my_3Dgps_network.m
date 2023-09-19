@@ -1,18 +1,7 @@
-%{
-% GEOMETRIC OPTIMIZATION PROBLEM ;
-% 3D BASELINE ADJUSTMENT - EXPERIMENTAL HEURISTIC TECHNIQUE
-% 100-points based 3D network has been adjusted using baselines.
-% private use only
+%%{
 % sol : adjusted coordinates
 % v : computed baselines
-% dxdydz : observed baselines (see the code, line 25)
-
-
-load gps_3Dnet_data LSU
-algo_wde('my_3Dgps_network',LSU,5,100*3,0,1,3e6)
-[out,sol,v] = my_3Dgps_network(globalminimizer,LSU)
-
-
+% dxdydz : observed baselines 
 
 %}
 
