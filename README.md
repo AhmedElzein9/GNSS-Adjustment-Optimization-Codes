@@ -20,6 +20,11 @@ The following optimization algorithms are implemented in this repository:
 - All data files used for GNSS adjustment are stored with the name 'LSU20.'
 - To run any of the optimization algorithms, locate and execute the 'main' file associated with that algorithm.
 
+## Data
+The data should contains 4 Matrices: data (n x 3), connection (m x 2), Disatnace (m x 1), dxdydz (m x 3)
+Where n number of points, m number of baselines. 
+dxdydz=data(connections(:,1),:)-data(connections(:,2),:)
+
 ## Usage
 
 1. Choose the optimization algorithm you wish to use.
