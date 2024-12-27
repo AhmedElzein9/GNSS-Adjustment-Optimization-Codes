@@ -3,7 +3,7 @@
 ## Introduction
 
 This repository contains codes for optimizing Global Navigation Satellite Systems (GNSS) adjustment using various optimization algorithms. The codes are designed to improve the accuracy and reliability of GNSS network adjustments.
-The article related to this study is still Under review.
+
 
 ## Optimization Algorithms
 
@@ -24,8 +24,9 @@ The following optimization algorithms are implemented in this repository:
 
 1. Choose the optimization algorithm you wish to use.
 2. Locate the 'main' file for that algorithm in the repository.
-3. Run the 'main' file to initiate the optimization process.
-4. Monitor the algorithm's progress and results.
+3. Change the Data name to your data name file in (load your_data)
+4. Run the 'main' file to initiate the optimization process.
+5. Monitor the algorithm's progress and results.
 
 ## Contributing
 
